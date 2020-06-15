@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inskkagram"
+        android:fontFamily="@font/billabong"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:textSize="70sp"
+        android:layout_marginTop="70dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#FFF"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:backgroundTint="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#FFF"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:backgroundTint="#FFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:background="@drawable/rounded_button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="LOGIN"
+        android:fontFamily="@font/gillsans"
+        android:textColor="#2196F3"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+         />
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gillsans"
+            android:text="You don't have a account?"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:fontFamily="@font/gillsansb"
+            android:textColor="#FFF"
+            android:background="#00ff0000"
+            android:textSize="15sp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
